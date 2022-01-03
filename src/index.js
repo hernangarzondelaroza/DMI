@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import DetailsRoute from "./routes/details-route";
+import Details from './components/Shows/Details/Details'
 import "bootstrap/dist/css/bootstrap.css";
 
 import App from "./App";
@@ -12,7 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="details/:id" element={<DetailsRoute />} />
+        <Route path="details/:id" element={<Details />} />
         <Route
           path="*"
           element={
