@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Should take a snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <header
+      className="header"
+    >
+      <h1>
+        Technical Test
+      </h1>
+      <img
+        className="logo"
+        src="https://v1.nitrocdn.com/LYkBDVHVdldIrognCFlxEKUhZLCymUBO/assets/static/optimized/rev-674e467/wp-content/uploads/2020/11/white-no-sub.svg"
+      />
+    </header>
+  </div>
+  <main />
+  <div
+    className="row"
+  >
+    <footer
+      className="footer fixed-bottom"
+    >
+      by Hernan Garzon de la Roza
+    </footer>
+  </div>
+</div>
+`;

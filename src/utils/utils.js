@@ -3,8 +3,3 @@ export const noImage =
 
 export const DMIlogo =
   "https://v1.nitrocdn.com/LYkBDVHVdldIrognCFlxEKUhZLCymUBO/assets/static/optimized/rev-674e467/wp-content/uploads/2020/11/white-no-sub.svg";
-
-module.exports = {
-  noImage,
-  DMIlogo
-};

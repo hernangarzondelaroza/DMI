@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Should take a snapshot 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "margin": "0 auto",
+    }
+  }
+>
+  <div
+    className="justify-content-md-center row"
+  >
+    <div
+      className="col"
+    >
+      <h1 />
+      <img
+        className="detailsImage mx-auto d-block"
+      />
+      <p
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "No description provided",
+          }
+        }
+      />
+      <button
+        className="mx-auto d-block btn btn-link"
+        disabled={false}
+        type="button"
+      >
+        <a />
+      </button>
+    </div>
+  </div>
+</div>
+`;

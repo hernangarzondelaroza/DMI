@@ -10,7 +10,9 @@ import PropTypes from "prop-types";
 import "./Show.scss";
 
 const Show = ({ data }) => {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    console.log(data)
+  }, [data]);
 
   return (
     <>
@@ -24,13 +26,12 @@ const Show = ({ data }) => {
             />
             <Card.Body>
               <Card.Title>{element?.show?.name}</Card.Title>
-              <Card.Text className="showSummary">
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: element?.show?.summary || "No description provided"
-                  }}
-                />
-              </Card.Text>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: element?.show?.summary || "No description provided"
+                }}
+                className="showSummary"
+              />
               <Button variant="primary" className="cardButton">
                 <Link
                   to={`/details/${element?.show?.id}`}

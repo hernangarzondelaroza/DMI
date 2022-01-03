@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Should take a snapshot 1`] = `
+<div
+  className="row"
+>
+  <footer
+    className="footer fixed-bottom"
+  >
+    by Hernan Garzon de la Roza
+  </footer>
+</div>
+`;

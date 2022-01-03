@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Should take a snapshot 1`] = `
+<section
+  className="mt-5 row"
+>
+  <div
+    className="showCard card"
+  >
+    <img
+      className="card-img-top showImage"
+      src="https://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        Girls
+      </div>
+      <div
+        className="showSummary"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Lorem ipsum...",
+          }
+        }
+      />
+      <button
+        className="cardButton btn btn-primary"
+        disabled={false}
+        type="button"
+      >
+        <a
+          href="/details/139"
+          onClick={[Function]}
+        >
+          Show details
+        </a>
+      </button>
+    </div>
+  </div>
+</section>
+`;

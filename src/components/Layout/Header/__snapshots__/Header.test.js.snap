@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Should take a snapshot 1`] = `
+<div
+  className="row"
+>
+  <header
+    className="header"
+  >
+    <h1>
+      Technical Test
+    </h1>
+    <img
+      className="logo"
+      src="https://v1.nitrocdn.com/LYkBDVHVdldIrognCFlxEKUhZLCymUBO/assets/static/optimized/rev-674e467/wp-content/uploads/2020/11/white-no-sub.svg"
+    />
+  </header>
+</div>
+`;
